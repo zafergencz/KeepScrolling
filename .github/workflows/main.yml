@@ -1,9 +1,0 @@
-name: Upload
-
-on:
-  release:
-    types: [published]
-
-env:
-      UNSPLASH_API_KEY: ${{ secrets.UNSPLASH_API_KEY }}
-  
