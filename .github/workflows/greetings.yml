@@ -1,0 +1,10 @@
+name: Greetings
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    env:
+      UNSPLASH_API_KEY: ${{ secrets.UNSPLASH_API_KEY }}
+    
