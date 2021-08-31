@@ -1,0 +1,23 @@
+{
+  "name": "infinite-scroll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {
+    "tachyons": "^4.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zafergencz/infinite-scroll.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zafergencz/infinite-scroll/issues"
+  },
+  "homepage": "https://github.com/zafergencz/infinite-scroll#readme"
+}
