@@ -12,8 +12,7 @@ on:
 jobs:
   build:
     
-    env:
-      CI: true
+    env:      
       UNSPLASH_API_KEY: ${{ secrets.UNSPLASH_API_KEY }}
     
     runs-on: ubuntu-latest
