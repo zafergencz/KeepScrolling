@@ -13,6 +13,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    env:
+      UNSPLASH_API_KEY: ${{ secrets.UNSPLASH_API_KEY }}
 
     strategy:
       matrix:
